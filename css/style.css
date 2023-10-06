@@ -86,3 +86,16 @@
   transform: translate(-50%, -50%);
   bottom: 60px;
 }
+
+/*Seccion 2*/
+.sect2{
+  display: flex;
+  overflow: hidden;
+}
+.content_sect2 img{
+  width: 340px;
+  height: 400px;
+  display: flex;
+  object-fit: cover;
+  flex-grow: 1;
+}
