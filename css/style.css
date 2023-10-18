@@ -227,3 +227,53 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+
+/*LOGIN*/
+.sect1_login{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sect1_login .img_login{
+  grid-column: 1;
+  background: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  margin: 80px 0 0 80px;
+}
+.img_login img{
+  height: 500px;
+}
+.sect1_login .form_login{
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_login .content_form_login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content_form_login h2{
+  position: relative;
+  bottom: 150px;
+  color: #D7A400;
+}
+.content_form_login .label_user{
+  position: relative;
+  bottom: 70px;
+}
+.content_form_login .btn_login{
+  width: 200px;
+  height: 60px;
+  border-radius: 25px;
+  font-size: 30px;
+  background-color: #D4AF37;
+  border: none;
+  position: relative;
+  top: 60px;
+}
