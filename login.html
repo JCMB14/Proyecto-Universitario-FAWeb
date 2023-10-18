@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iniciar sesión</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header class="header_index">
-        <nav class="content_nav">
-          <div class="nav_logo">
-            <img src="img/logo.png" alt="image" />
-          </div>
-          <div class="nav_section">
-            <img class="name_logo" src="img/name.png" alt="" />
-          </div>
-          <div class="nav_login">
-            <a class="contacto" href="">Contáctenos</a>
-            <a class="soporte" href="">Soporte técnico</a>
-          </div>
-        </nav>
-      </header>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="header_login">
+      <nav class="content_nav_login">
+        <div class="nav_logo_login">
+          <img src="img/logo.png" alt="image" />
+        </div>
+        <div class="namelogo">
+          <img class="name_logo" src="img/name.png" alt="" />
+        </div>
+        <div class="nav_login">
+          <a class="contacto" href="">Contáctenos</a>
+          <a class="soporte" href="">Soporte técnico</a>
+        </div>
+      </nav>
+    </header>
 
-      <section class="sect1_login">
-        <div class="img_login">
-            <img src="img/imglogin.png" alt="image">
-        </div>
-        <div class="form_login">
-             <form action="" method="post" class="content_form_login">
-                <h2>Iniciar sesión</h2>
-                <label name="usuario" class="label_user">
-                    Usuario:
-                    <input type="text" id="inputUsuario" class="user">
-                </label>
-                <label name="contraseña" class="label_clave">
-                    contraseña:
-                     <input type="password" id="inputClave" class="clave">
-                </label>
-                <button class="btn_login">Ingresar</button>
-             </form>
-        </div>
-      </section>
-      
-</body>
+    <section class="sect1_login">
+      <div class="img_login">
+        <img src="img/imglogin.png" alt="image" />
+      </div>
+      <div class="form_login">
+        <form action="" method="post" class="content_form_login">
+          <h2>Iniciar sesión</h2>
+          <label name="usuario" class="label_user">
+            Usuario:
+            <input type="text" id="inputUsuario" class="user" />
+          </label>
+          <label name="contraseña" class="label_clave">
+            contraseña:
+            <input type="password" id="inputClave" class="clave" />
+          </label>
+          <button class="btn_login"><span>Ingresar</span></button>
+        </form>
+      </div>
+    </section>
+  </body>
 </html>
