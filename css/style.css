@@ -469,7 +469,7 @@ h3 {
   display: block;
   margin-bottom: 10px;
 }
-.body_bienvenido{
+.body_bienvenido {
   background: black;
 }
 
@@ -500,36 +500,35 @@ swiper-slide img {
   display: block;
   width: 100%;
 }
-.sidebar{
+.sidebar {
   width: 40px;
   height: 40px;
   background: black;
   cursor: pointer;
 }
-.sidebar i{
+.sidebar i {
   font-size: 25px;
 }
-.content_sidebar{
+.content_sidebar {
   display: flex;
   justify-content: start;
   align-items: start;
   position: absolute;
   bottom: 511px;
 }
-.offcanvas-body h5{
+.offcanvas-body h5 {
   display: inline;
 }
-.offcanvas-body{
+.offcanvas-body {
   padding-bottom: -100px;
 }
-.offcanvas-body img{
+.offcanvas-body img {
   width: 60px;
 }
-.offcanvas-body a{
+.offcanvas-body a {
   text-decoration: none;
   color: black;
 }
-
 
 /*preguntas*/
 .header_preguntas {
@@ -543,13 +542,11 @@ swiper-slide img {
   justify-content: center;
   align-items: center;
   color: yellow;
-  background-color: #E4E4D0;
+  background-color: #e4e4d0;
   margin-bottom: 50px;
   flex-direction: column;
   font-size: 50px;
 }
-
-
 
 .Texto_p .pp1 {
   text-align: center;
@@ -579,7 +576,7 @@ swiper-slide img {
   justify-content: center;
   align-items: center;
   color: yellow;
-  background-color: #E4E4D0;
+  background-color: #e4e4d0;
   margin-bottom: 50px;
   flex-direction: column;
   font-size: 50px;
@@ -593,11 +590,7 @@ swiper-slide img {
   margin-top: 200px;
   text-align: center;
   margin-bottom: 200px;
-
 }
-
-
-
 
 .sec1_preguntas {
   background-image: url("/img/img7.png");
@@ -681,7 +674,69 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-.btn-close{
+.btn-close {
   font-size: 30px;
   opacity: 1;
+}
+
+/*Start-entrene-anaerobicos*/
+.header_Entrenador {
+  background: black;
+  height: 100px;
+}
+
+.sect1_index a:hover {
+  color: white;
+}
+
+.sec1_Entrenador {
+  background-image: url("/img/img_fondo_inicio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec1_Entrenador {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(252, 252, 252);
+  background-color: #e4e4d0;
+  flex-direction: column;
+  font-size: 50px;
+}
+
+.sec1_Entrenador .Texto_s1 .p1 {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 170px;
+}
+.sec1_Entrenador .Texto_s1 .p2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 400px;
+}
+
+.sec2_Entrenador .p3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.sec2_Entrenador {
+  background-image: url("/img/img6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec2_Entrenador .texto2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(252, 252, 252);
+  flex-direction: column;
+  font-size: 50px;
 }
