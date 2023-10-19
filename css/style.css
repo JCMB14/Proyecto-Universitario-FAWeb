@@ -514,7 +514,14 @@ swiper-slide img {
   justify-content: start;
   align-items: start;
   position: absolute;
-  bottom: 511px;
+  bottom: 501px;
+}
+.sidebar_mas{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  position: absolute;
+  bottom: 501px;
 }
 .offcanvas-body h5 {
   display: inline;
