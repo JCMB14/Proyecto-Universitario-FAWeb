@@ -516,7 +516,7 @@ swiper-slide img {
   position: absolute;
   bottom: 501px;
 }
-.sidebar_mas{
+.sidebar_mas {
   display: flex;
   justify-content: start;
   align-items: start;
@@ -746,4 +746,126 @@ h3 {
   color: rgb(252, 252, 252);
   flex-direction: column;
   font-size: 50px;
+}
+
+/*Registrarse*/
+
+.sign {
+  display: grid;
+  grid-template-columns: 0.3fr 1.1fr 0.4fr;
+}
+.sign .nav_logo_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sect_sign {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sect_sign .content_img_sign {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect_sign .content_form_sign {
+  grid-column: 1;
+}
+
+.contenedor-texto {
+  display: inline-block;
+  margin-left: 50px;
+  color: blue;
+}
+
+.titulo {
+  text-align: center;
+  color: gold;
+  font-size: 50px;
+  margin-bottom: -30px;
+}
+
+
+.content_form_sign {
+  color: white;
+  background: black;
+}
+
+.content_img_sign .imagencuerpo {
+  width: 70%;
+  height: 500px;
+  margin: 30px 0 30px -45px;
+}
+
+
+.titulo {
+  color: gold; 
+  font-size: 30px;
+  font-weight: 100; 
+  display: inline-block;
+  width: 400px; 
+  text-align: right; 
+  margin-right: 10px; 
+}
+
+.btn_regis{
+  background-color: gold;
+  color: black; 
+  border: none; 
+  padding: 15px 30px; 
+  border-radius: 10px; 
+  font-size: 20px;
+  cursor: pointer; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor_r_r{
+  display: flex;
+  flex-direction: row;
+}
+.contenedor_r_r a{
+  margin: 45px 0 0 20px;
+}
+.btn_regis:hover {
+  background-color: darkgoldenrod;
+}
+.btn_regis{
+  margin: 30px 0 80px 80px;
+  
+}
+
+.content_form_sign .contenedor-texto {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+}
+
+.content_form_sign label {
+  width: 120px; 
+  margin-right: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.content_form_sign input[type="text"],
+.content_form_sign input[type="date"],
+.content_form_sign input[type="email"],
+.content_form_sign input[type="password"] {
+  width: 200px;
+  border: none; 
+  border-bottom: 2px solid gold; 
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.content_form_sign input[type="text"]:focus,
+.content_form_sign input[type="date"]:focus,
+.content_form_sign input[type="email"]:focus,
+.content_form_sign input[type="password"]:focus {
+  border: none;
+  border-bottom: 2px solid gold;
+  outline: none;
 }

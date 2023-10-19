@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header_login">
+      <nav class="content_nav_login">
+        <div class="nav_logo_login">
+          <img src="img/logo.png" alt="image" />
+        </div>
+        <div class="namelogo">
+          <img class="name_logo" src="img/name.png" alt="" />
+        </div>
+        <div class="nav_login">
+          <a class="contacto" href="">Contáctenos</a>
+          <a class="soporte" href="">Soporte técnico</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="sect_sign">
+      <form
+        action="procesar_registro.php"
+        method="post"
+        class="content_form_sign"
+      >
+        <h1 class="titulo">Crea una cuenta</h1>
+        <br />
+        <br />
+        <label class="contenedor-texto" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required /> <br /><br />
+
+        <label class="contenedor-texto" for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required /><br /><br />
+
+        <label class="contenedor-texto" for="celular">Celular:</label>
+        <input type="text" id="celular" name="celular" required /><br /><br />
+
+        <label class="contenedor-texto" for="identificacion"
+          >Identificación:</label
+        >
+        <input
+          class="rt"
+          type="text"
+          id="identificacion"
+          name="identificacion"
+          required
+        /><br /><br />
+
+        <label class="contenedor-texto" for="fechaNacimiento"
+          >Fecha de nacimiento:</label
+        >
+        <input
+          type="date"
+          id="fechaNacimiento"
+          name="fechaNacimiento"
+          required
+        /><br /><br />
+
+        <label class="contenedor-texto" for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required /><br /><br />
+
+        <label class="contenedor-texto" for="contrasena">Contraseña:</label>
+        <input
+          type="password"
+          id="contrasena"
+          name="contrasena"
+          required
+        /><br /><br />
+
+        <label class="contenedor-texto" for="confirmarContrasena"
+          >Confirmar contraseña:</label
+        >
+        <input
+          type="password"
+          id="confirmarContrasena"
+          name="confirmarContrasena"
+          required
+        /><br /><br />
+
+        <label class="contenedor-texto" for="sexo">Sexo:</label>
+        <input type="radio" id="sexoM" name="sexo" value="M" />
+        <label for="sexoM">M</label>
+
+        <input type="radio" id="sexoF" name="sexo" value="F" />
+        <label for="sexoF">F</label><br /><br />
+
+        <div class="contenedor_r_r">
+          <button class="btn_regis" type="submit">Registrarse</button>
+          <a href="login.html" style="color: white">¿Ya tienes una cuenta?</a>
+        </div>
+      </form>
+      <div class="content_img_sign">
+        <img class="imagencuerpo" src="img/img_signin.jpeg" />
+      </div>
+    </section>
+  </body>
+</html>
