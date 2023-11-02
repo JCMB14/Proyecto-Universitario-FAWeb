@@ -4,7 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+    rel="stylesheet"
+  />
+  <script
+  src="https://kit.fontawesome.com/bcc3f4ccfc.js"
+  crossorigin="anonymous"
+></script>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
 
   <body>
@@ -22,13 +35,84 @@
         </div>
       </nav>
     </header>
+
+    <div class="content_sidebar">
+      <button
+        class="sidebar"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasScrolling"
+        aria-controls="offcanvasScrolling"
+      >
+        <i class="fa-solid fa-bars" style="color: #fbff00"></i>
+      </button>
+    </div>
+    <div
+      class="offcanvas offcanvas-start"
+      data-bs-scroll="true"
+      data-bs-backdrop="false"
+      tabindex="-1"
+      id="offcanvasScrolling"
+      aria-labelledby="offcanvasScrollingLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <img src="img/home.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="">Mi perfil</a>
+        </h5>
+        <br />
+        <br />
+        <img src="img/user.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="bienvenida.html">Inicio</a>
+        </h5>
+        <br />
+        <br />
+        <img src="img/entrene.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="">Mi entrenamiento</a>
+        </h5>
+        <br />
+        <br />
+        <img src="img/alimento.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="">Mi alimentación</a>
+        </h5>
+        <br />
+        <br />
+        <img src="img/config.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="">Configuración</a>
+        </h5>
+        <br />
+        <br />
+        <img src="img/pqr.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="pqr.html">Preguntas frecuentes</a>
+        </h5>
+      </div>
+    </div>
+
     <section class="sec1_preguntas">
       <div class="Texto_p">
         <p class="pp1">Preguntas frecuentes de los usuarios</p>
         <p class="pp2">"¿Cúal es tu estado?"</p>
-        <p class="pp3">Usuario nuevo | usuario existente</p>
+        <i class="fa-solid fa-arrow-down-long" style="color: #fbff00;"></i>
       </div>
+      <div class="usernew_old">
+        <a href="" class="pp31">Usuario nuevo</a><p>|</p><a href="" class="pp32">Usuario existente</a>
+      </div>
+
     </section>
+
     <section class="sec2_preguntas">
       <div class="textop2">
         <p class="pp4">
@@ -37,10 +121,9 @@
         <button class="btn_preguntas">Ingresar</button>
       </div>
     </section>
+
     <footer class="footer_index">
-      <div class="line">
-        <hr class="line_separator" />
-      </div>
+
       <div class="content_footer_index_n">
         <div class="content_footer_index1">
           <img src="img/logo.png" alt="image" />
