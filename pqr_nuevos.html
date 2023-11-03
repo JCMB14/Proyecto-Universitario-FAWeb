@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+    rel="stylesheet"
+  />
+  <script
+  src="https://kit.fontawesome.com/bcc3f4ccfc.js"
+  crossorigin="anonymous"
+></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <header class="header_preguntas">
+      <nav class="content_nav">
+        <div class="nav_logo">
+          <img src="img/logo.png" alt="image" />
+        </div>
+        <div class="nav_section">
+          <a href="">Entrenamiento</a>
+          <a href="">Nutrición</a>
+          <img class="name_logo" src="img/name.png" alt="" />
+          <a href="">Soporte técnico</a>
+          <a href="">Contáctenos</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="content_sidebar">
+      <button
+        class="sidebar"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasScrolling"
+        aria-controls="offcanvasScrolling"
+      >
+        <i class="fa-solid fa-bars" style="color: #fbff00"></i>
+      </button>
+    </div>
+    <div
+      class="offcanvas offcanvas-start"
+      data-bs-scroll="true"
+      data-bs-backdrop="false"
+      tabindex="-1"
+      id="offcanvasScrolling"
+      aria-labelledby="offcanvasScrollingLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <img src="img/home.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="">Mi perfil</a>
+        </h5>
+        <br />
+        <br />
+        <img src="img/user.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="bienvenida.html">Inicio</a>
+        </h5>
+        <br />
+        <br />
+        <img src="img/entrene.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="">Mi entrenamiento</a>
+        </h5>
+        <br />
+        <br />
+        <img src="img/alimento.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="">Mi alimentación</a>
+        </h5>
+        <br />
+        <br />
+        <img src="img/config.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="">Configuración</a>
+        </h5>
+        <br />
+        <br />
+        <img src="img/pqr.png" alt="" />
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          <a href="pqr.html">Preguntas frecuentes</a>
+        </h5>
+      </div>
+    </div>
+
+    <section class="sec1_preguntas">
+      <div class="Texto_p">
+        <p class="pp1">Preguntas frecuentes de los usuarios</p>
+        <p class="pp2">"¿Cúal es tu estado?"</p>
+        <i class="fa-solid fa-arrow-down-long" style="color: #fbff00;"></i>
+      </div>
+      <div class="usernew_old">
+        <a href="pqr_nuevos.html" class="pp31">Usuario nuevo</a><p>|</p><a href="pqr_antiguo.html" class="pp32">Usuario existente</a>
+      </div>
+
+    </section>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+            ¿Qué me va ofrecer FAWEB?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+            style=""
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              first item's accordion body.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+            ¿Utilizar la app de FAWEB tiene algún costo?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+            style=""
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              second item's accordion body. Let's imagine this being filled with
+              some actual content.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+            ¿Tienen atención via WhatsApp?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              third item's accordion body. Nothing more exciting happening here in
+              terms of content, but just filling up the space to make it look, at
+              least at first glance, a bit more representative of how this would
+              look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour"
+              aria-expanded="false"
+              aria-controls="flush-collapseFour"
+            >
+            ¿Poseen atención médica?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              third item's accordion body. Nothing more exciting happening here in
+              terms of content, but just filling up the space to make it look, at
+              least at first glance, a bit more representative of how this would
+              look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive"
+              aria-expanded="false"
+              aria-controls="flush-collapseFive"
+            >
+            ¿Que pasa si dejo de entrenar varios dias?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              third item's accordion body. Nothing more exciting happening here in
+              terms of content, but just filling up the space to make it look, at
+              least at first glance, a bit more representative of how this would
+              look in a real-world application.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <section class="sec2_preguntas">
+      <div class="textop2">
+        <p class="pp4">
+          Inscribete si quieres recibir las nuevas novedades de la plataforma
+        </p>
+        <a href="signin.html" class="btn_preguntas">Ingresar</a>
+      </div>
+    </section>
+
+    <footer class="footer_index">
+
+      <div class="content_footer_index_n">
+        <div class="content_footer_index1">
+          <img src="img/logo.png" alt="image" />
+        </div>
+        <div class="content_footer_index2">
+          <h3>Preguntas</h3>
+          <a href="pqr_nuevos.html">Usuario nuevo</a>
+          <a href="pqr_antiguo.html">Usuario antiguo</a>
+        </div>
+        <div class="content_footer_index3">
+          <h3>Productos</h3>
+          <a href="">Entrenamiento</a>
+          <a href="">Nutrición</a>
+        </div>
+        <div class="content_footer_index4">
+          <h3>Redes</h3>
+          <a href="">Facebook</a>
+          <a href="">Instagram</a>
+        </div>
+        <div class="content_footer_index5">
+          <h3>Proximamente disponible en:</h3>
+          <img src="img/coming_sonon_android.png" alt="image" />
+          <img src="img/coming_soon_apple.png" alt="image" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

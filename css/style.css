@@ -562,7 +562,7 @@ swiper-slide img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: yellow;
+  color: #FDC500;
   background-color: #e4e4d0;
   flex-direction: column;
   font-size: 50px;
@@ -601,7 +601,7 @@ swiper-slide img {
 .usernew_old .pp31 {
   text-decoration: none;
   color: black;
-  background-color: yellow;
+  background-color: #FDC500;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   padding: 20px;
@@ -612,7 +612,7 @@ swiper-slide img {
 .usernew_old .pp32 {
   text-decoration: none;
   color: black;
-  background-color: yellow;
+  background-color: #FDC500;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   text-align: center;
@@ -627,6 +627,7 @@ swiper-slide img {
   align-items: center;
   background: white;
   margin: 60px 0 60px 0;
+  border-radius: 20px;
 }
 .textop2 .btn_preguntas{
   margin-bottom: 20px;
@@ -642,12 +643,17 @@ swiper-slide img {
   cursor: pointer;
   width: 200px;
 }
+.textop2 .btn_preguntas:hover{
+  color: white;
+  background: black;
+  border: 3px solid #FDC500;
+}
 .sec2_preguntas {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: yellow;
+  color: #FDC500;
 }
 
 .pp4 {
@@ -656,7 +662,9 @@ swiper-slide img {
   align-items: center;
   text-align: center;
   color: black;
-  font-size: 50px;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 900;
 }
 
 .sec1_preguntas {
@@ -860,4 +868,17 @@ swiper-slide img {
   border: none;
   border-bottom: 2px solid gold;
   outline: none;
+}
+
+
+.accordion-item .accordion-button{
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+  background: white;
+  border: 3px solid #FDC500;
+}
+.accordion-item .accordion-body{
+  background: black;
+  color: white;
 }
