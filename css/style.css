@@ -508,6 +508,8 @@ swiper-slide img {
   display: block;
   width: 100%;
 }
+
+
 .sidebar {
   width: 40px;
   height: 40px;
@@ -533,6 +535,15 @@ swiper-slide img {
 }
 .offcanvas-body h5 {
   display: inline;
+  margin: 15px 0 0 10px;
+}
+.offcanvas-body h5, .offcanvas-body img{
+
+}
+.offcanvas-body .content_bar{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 12px;
 }
 .offcanvas-body {
   padding-bottom: -100px;
@@ -548,6 +559,26 @@ swiper-slide img {
   transform: scale(110%);
   transition: 0.5s ease;
   color: #d7a400;
+}
+.content_close_acount{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.offcanvas-body .close_acount{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+.offcanvas-body .close_acount:hover{
+  background: #d7a400;
+  color: white;
+  transition: 0.5s ease;
 }
 
 
