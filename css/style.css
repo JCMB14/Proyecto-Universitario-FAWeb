@@ -1030,11 +1030,17 @@ swiper-slide img {
 .contact-form:hover {
   transform: scale(1.05);
 }
-
+.contact-form .btn{
+  font-weight: 600;
+}
 .contact-form h2 {
   color: #d7a400;
+  font-weight: 700;
 }
+.form-group label{
+  font-weight: 700;
 
+}
 .footer_soporte {
   background-color: #000000;
   color: #ffffff;
