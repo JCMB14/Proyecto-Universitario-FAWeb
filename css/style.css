@@ -333,7 +333,15 @@ h3 {
   border: 0;
   border-bottom: 1px solid #fdc500;
   background: black;
+  color: white;
+  font-size: 20px;
 }
+.content_form_login input:focus{
+  border: none;
+  border-bottom: 2px solid gold;
+  outline: none;
+}
+
 .content_form_login .label_clave {
   margin-left: -65px;
 }
