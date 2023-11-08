@@ -548,9 +548,6 @@ swiper-slide img {
   display: inline;
   margin: 15px 0 0 10px;
 }
-.offcanvas-body h5, .offcanvas-body img{
-
-}
 .offcanvas-body .content_bar{
   display: flex;
   flex-direction: row;
